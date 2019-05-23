@@ -6,7 +6,9 @@ class StoriesController < ApplicationController
   end
 
   def save
-    
+    story = Stories.create(title: params[:title], summary: params[:text].slice(0, 10))
+    page = Pages.create(name: params[:title], text: params[:text], story_id: story.id)
+    render json: { story_id: story.id, page_id: page.id }
   end
 
   def notfound
