@@ -10,7 +10,7 @@ StoryMori frontend(Vue) : https://github.com/ko-watanabe/cohort.dena-001.storymo
 [x] Try "`bundle exec rails generate controller stories getStories`"
 
 - Checkpoint 2-2 : Add pages-controller  
-[] Try "`bundle exec rails generate controller pages getPage`"
+[x] Try "`bundle exec rails generate controller pages getPage`"
 
 - Checkpoint 3 : Add database  
 [] Try "`rails db:create db:migrate`"
