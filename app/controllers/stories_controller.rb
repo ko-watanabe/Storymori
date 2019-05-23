@@ -4,8 +4,8 @@ class StoriesController < ApplicationController
 
   end
 
-  def save_stories()
-    
+  def notfound()
+    render html: helpers.tag.strong("I don't know that route, sorry!")
   end
 
 end
