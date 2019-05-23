@@ -1,11 +1,11 @@
 module PagesService
     class << self
 
-        def get_page ()
+        def get
         
         end
 
-        def save_page ()
+        def save
         
         end
 

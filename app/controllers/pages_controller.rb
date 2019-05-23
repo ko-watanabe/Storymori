@@ -1,6 +1,11 @@
 class PagesController < ApplicationController
   
-  def page()
+  def get
+    
   end
-  
+
+  def save
+
+  end
+
 end

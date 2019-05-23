@@ -1,11 +1,16 @@
 class StoriesController < ApplicationController
   
-  def stories()
-
+  def get
+    stories = Stories.all()
+    render json: stories
   end
 
-  def notfound()
-    render html: helpers.tag.strong("I don't know that route, sorry!")
+  def save
+    
+  end
+
+  def notfound
+    render html: helpers.tag.strong("This route does not exists. Sorry!")
   end
 
 end

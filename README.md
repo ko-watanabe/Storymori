@@ -18,11 +18,12 @@ StoryMori frontend(Vue) : https://github.com/ko-watanabe/cohort.dena-001.storymo
 - Checkpoint 4 : Add route elements (ADD while in implementation)
 [x] Connect port 3000 and port 3001 and show any data from database
 
-- Checkpoint 5 : Add methods
-[] add getStories method
-[] add saveStory method
-[] add getPage method
-[] add savePage method
+- Checkpoint 5 : Add methods(services)
+[x] add getStories, saveStory, getPage, savePage method
+[] implement getStories
+[] implement saveStory
+[] implement getPage
+[] implement savePage
 
 - Checkpoint 6 : Add and run testcase  
 [] Test case all succeed
