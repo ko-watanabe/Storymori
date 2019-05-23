@@ -1,4 +1,6 @@
 class PagesController < ApplicationController
-  def getPage
+  
+  def page()
   end
+  
 end
