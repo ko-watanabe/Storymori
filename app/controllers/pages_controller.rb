@@ -1,4 +1,12 @@
 class PagesController < ApplicationController
-  def getPage
+  
+  def page()
   end
+
+  def save_page()
+  end
+
+  def notfound()
+  end
+  
 end

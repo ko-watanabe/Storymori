@@ -1,4 +1,11 @@
 class StoriesController < ApplicationController
-  def GetStories
+  
+  def stories()
+
   end
+
+  def save_stories()
+    
+  end
+
 end
