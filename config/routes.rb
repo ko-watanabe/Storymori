@@ -3,8 +3,7 @@ Rails.application.routes.draw do
   namespace :api, default: { format: :json } do
     get '/stories', to: 'stories#get'
     post '/stories', to: 'stories#save'
-    get '/stories/:storyId/pages/:pageId', to: 'pages#get'
-    post '/stories/:storyId/pages/:parentId:/next', to: 'pages#save'
-    get '*path' => 'stories#notfound'
+    get '/stories/:story_id/pages/:page_id', to: 'pages#get'
+    post '/stories/:story_id/pages/:parent_id:/next', to: 'pages#save'
   end
 end
