@@ -15,20 +15,15 @@ StoryMori frontend(Vue) : https://github.com/ko-watanabe/cohort.dena-001.storymo
 - Checkpoint 3 : Add database  
 [x] Try "`rails db:create db:migrate`"
 
-- Checkpoint 4-1 : Add methods (getStories)  
-[] add getStories method
+- Checkpoint 4 : Add route elements (ADD while in implementation)
+[x] Connect port 3000 and port 3001 and show any data from database
 
-- Checkpoint 4-2 : Add methods (saveStory)  
-[] add saveStory method
-
-- Checkpoint 4-3 : Add methods (getPage)  
-[] add getPage method
-
-- Checkpoint 4-4 : Add methods (savePage)  
-[] add savePage method
-
-- Checkpoint 5 : Test port connection 3000 -> 3001 -> database  
-[] Connect port 3000 and port 3001 and show any data from database
+- Checkpoint 5 : Add methods(services)
+[x] add getStories, saveStory, getPage, savePage method
+[] implement getStories
+[] implement saveStory
+[] implement getPage
+[] implement savePage
 
 - Checkpoint 6 : Add and run testcase  
 [] Test case all succeed
