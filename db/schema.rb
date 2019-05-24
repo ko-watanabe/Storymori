@@ -10,24 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_23_111022) do
+ActiveRecord::Schema.define(version: 2019_05_23_133100) do
 
-    create_table "pages", force: :cascade do |t|
-     t.string "name"
-     t.string "text"
-     t.datetime "created_at", null: false
-     t.datetime "updated_at", null: false
-     t.integer "parent_id"
-     t.index ["parent_id"], name: "index_pages_on_parent_id"
-   end
- 
-    create_table "stories", force: :cascade do |t|
-     t.string "title"
-     t.string "summary"
-     t.datetime "created_at", null: false
-     t.datetime "updated_at", null: false
-     t.integer "story_id"
-     t.index ["story_id"], name: "index_stories_on_story_id"
-   end
- 
+  create_table "pages", force: :cascade do |t|
+    t.string "name"
+    t.string "text"
+    t.integer "story_id", null: false
+    t.integer "parent_id"
+    t.integer "created_by"
+    t.integer "updated_by"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["story_id"], name: "index_pages_on_story_id"
   end
+
+  create_table "stories", force: :cascade do |t|
+    t.string "title"
+    t.string "summary"
+    t.integer "created_by"
+    t.integer "updated_by"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+end
