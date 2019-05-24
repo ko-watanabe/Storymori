@@ -20,10 +20,10 @@ StoryMori frontend(Vue) : https://github.com/ko-watanabe/cohort.dena-001.storymo
 
 - Checkpoint 5 : Add methods(services)
 [x] add getStories, saveStory, getPage, savePage method
-[] implement getStories
-[] implement saveStory
-[] implement getPage
-[] implement savePage
+[x] implement getStories
+[x] implement saveStory
+[x] implement getPage
+[x] implement savePage
 
 - Checkpoint 6 : Add and run testcase  
 [] Test case all succeed
